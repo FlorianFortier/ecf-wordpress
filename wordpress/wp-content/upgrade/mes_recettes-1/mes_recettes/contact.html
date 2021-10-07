@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header class="main-header">
+		<div class="container">
+			<div class="logo">Mes recettes</div>
+			<nav class="main-nav">
+				<ul class="menu">
+					<li class="menu-item"><a href="index.html" class="menu-link">Accueil</a></li>
+					<li class="menu-item"><a href="blog.html" class="menu-link">Blog</a></li>
+					<li class="menu-item"><a href="recipe-list.html" class="menu-link">Recettes</a></li>
+					<li class="menu-item"><a href="page.html" class="menu-link">A propos</a></li>
+					<li class="menu-item"><a href="contact.html" class="menu-link active">Contact</a></li>
+				</ul>
+			</nav>
+			<form action="search.html" class="search-form">
+				<label for="search" class="sr-only">Rechercher</label>
+				<input type="search" id="search" placeholder="Recherche ...">
+				<button type="submit">Ok</button>
+			</form>
+		</div>
+	</header>
+	<main class="main-content">
+		<div class="container">
+			<h1>Me contacter</h1>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla consectetur natus, architecto similique aperiam dolores pariatur rerum accusamus! Architecto obcaecati, corrupti iste pariatur quasi debitis doloribus quidem quod. Dignissimos, aspernatur!</p>
+			<form action="" class="contact-form">
+				<div class="form-group">
+					<label for="lastname">Votre nom<sup>*</sup></label>
+					<input type="text" id="lastname" required>
+				</div>
+				<div class="form-group">
+					<label for="firstname">Votre prénom</label>
+					<input type="text" id="firstname">
+				</div>
+				<div class="form-group">
+					<label for="email">Votre e-mail<sup>*</sup></label>
+					<input type="email" id="email" required>
+				</div>
+				<div class="form-group">
+					<label for="subject">A quel propos souhaitez-vous nous contacter ?</label>
+					<select id="subject">
+						<option value="">--Merci de choisir un sujet--</option>
+						<option value="recipe">Proposer une recette</option>
+						<option value="workshop">Participer à un atelier cuisine</option>
+						<option value="other">Autre</option>
+					</select>
+				</div>
+				<div class="form-group full-width">
+					<label for="msg">Votre message<sup>*</sup></label>
+					<textarea id="msg" required></textarea>
+				</div>
+				<div class="form-group full-width acceptance">
+					<input type="checkbox" id="acceptance" required><label for="acceptance"><small>En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler.</small></label>
+				</div>
+				<div class="form-group full-width submit">
+					<button type="submit" class="btn btn-secondary">Envoyer</button>
+				</div>
+				<div class="form-group full-width">
+					<p><small><em><sup>*</sup> Champs obligatoires</em></small></p>
+				</div>
+			</form>
+			<h2>Les ateliers cuisine "Mes recettes"</h2>
+			<div class="map">
+				<iframe src="https://www.google.com/maps/d/embed?mid=1fnTwOQf45oRK9HtIli--aFCZ1DPu86eC"></iframe>
+			</div>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<div class="copyright">Copyright &copy; Mes recettes 2021</div>
+			<nav class="footer-nav">
+				<ul class="menu">
+					<li class="menu-item"><a href="page.html" class="menu-link">Mentions légales</a></li>
+					<li class="menu-item"><a href="page.html" class="menu-link">Politique de confidentialité</a></li>
+				</ul>
+			</nav>
+			<nav class="social-nav">
+				<ul class="menu">
+					<li class="menu-item"><a href="#" class="menu-link">Instagram</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">Facebook</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">Pïnterest</a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+
+</body>
+</html>
