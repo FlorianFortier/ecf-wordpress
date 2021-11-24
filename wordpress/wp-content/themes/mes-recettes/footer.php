@@ -2,7 +2,7 @@
 </main>
 	<footer class="main-footer">
 		<div class="container">
-			<div class="copyright">Copyright &copy; Mes recettes 2021</div>
+			<div class="copyright">Copyright &copy;<?php bloginfo('name');?></div>
 			<nav class="footer-nav">
 				<ul class="menu">
 					<li class="menu-item"><a href="page.html" class="menu-link">Mentions légales</a></li>
